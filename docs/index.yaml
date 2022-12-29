@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  kutt:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-29T16:14:37.858928015+01:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.8
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.3.4
+    description: A Helm chart for Kubernetes
+    digest: 91d611d30cf4634595a0ee19d5563a37dd0f195ecf892cbb7dbd62a768ac2d71
+    name: kutt
+    type: application
+    urls:
+    - https://rgarrigue.github.io/helm-chart-kutt/kutt-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-29T16:14:37.840694952+01:00"
